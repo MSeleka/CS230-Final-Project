@@ -11,11 +11,11 @@ import numpy as np
 #import matplotlib.pyplot as plt
 import pydeck as pdk
 
-path = "C:/Users/Maseg/OneDrive - Bentley University/Bentley Documents/Spring 2025/CS230/CS230 pythonProject/Final Project/"
+#path = "C:/Users/Maseg/OneDrive - Bentley University/Bentley Documents/Spring 2025/CS230/CS230 pythonProject/Final Project/"
 
 # [DA1], [PY1] Load and clean data
 def read_data(filepath='NY-House-Dataset.csv'):
-    df = pd.read_csv(path + filepath)
+    df = pd.read_csv(filepath)
     df = df[(df['PRICE'] > 0) & (df['PROPERTYSQFT'] > 0)]
     return df
 
