@@ -8,7 +8,7 @@ Description: This Streamlit app is an interactive dashboard that analyzes housin
 import pandas as pd
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import pydeck as pdk
 
 path = "C:/Users/Maseg/OneDrive - Bentley University/Bentley Documents/Spring 2025/CS230/CS230 pythonProject/Final Project/"
